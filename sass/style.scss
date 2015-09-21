@@ -1,0 +1,78 @@
+$font-color: #fff;
+
+
+
+body{
+	background-image:url(urban.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h1{
+	position:absolute;
+	left:40%;
+	top:15%
+}
+
+h2{ 
+position:absolute;
+	left:41%;
+	top:62%;
+	color:$font-color;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:24px;
+}
+
+/* jQuery Countdown styles 2.0.0. */
+
+	
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: $font-color;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 120%;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color:$font-color;
+}
+.countdown-amount {
+    font-size: 200%;
+}
+.countdown-period {
+    display: block;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}

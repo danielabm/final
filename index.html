@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vipera Fashion Clothing</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-plugins.min.js"></script>
+<style type="text/css">
+#defaultCountdown { width: 400px; height: 200px; position:absolute; left:35%; top:75%; }
+</style>
+<script>
+$(function () {
+	var austDay = new Date();
+	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+	$('#defaultCountdown').countdown({until: austDay});
+	$('#year').text(austDay.getFullYear());
+});
+</script>
+</head>
+
+<body>
+<h1><img src="logo.svg"/></h1>
+<h2>COMING SOON IN:</h2>
+<div id="defaultCountdown"></div>
+</body>
+</html>
